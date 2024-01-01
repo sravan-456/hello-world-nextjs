@@ -5,4 +5,4 @@ copy ..
 RUN npm install && pwd && ls-la
 RUN pwd
 expose 8001
-CMD ["node"]
+CMD ["node" next.config.js]
